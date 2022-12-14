@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background: rgb(184, 188, 192);
+    width: 90%;
+    margin: auto;
+    padding-bottom: 333px;
+}
+
+
+
+.kredit{
+    margin: auto;
+    display: flex;
+    padding: 50px;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.row{
+    display: flex;
+    padding: 20px;
+
+}
+.col-3{
+    width: 25%;
+}
+#start,#muddat,#stavka,#kredit{
+    background: white;
+    width: 160px;
+    height: 40px;
+    margin-left: 20px;
+    padding: 0px 10px;
+    padding-left: 20px;
+    margin-bottom: -13px;
+    font-size: 36px;
+}
+#stavka{
+    
+    width: 130px;
+}
+
+#kredit{
+    margin-left: -20px;
+    width: 180px;
+}
+.range{
+    margin-left: 20px;
+    height:3px;
+    width: 162px;
+}
+.range1{
+    margin-left: -20px;
+    width: 182px;
+}
+.range4{
+    width: 132px;
+}
+.text{
+    font-size: 18px;
+    opacity: 0.6;
+}
+.ml40{
+    margin-left: 40px;
+}
+.d-flex{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box--title{
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 50px 50px 0px 50px;
+}
+.box--text{
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 20px 50px 10px 50px;
+}
+.sugurta{
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0px 50px 40px 50px;
+}
+#sumkredit{
+    background: white;
+    width: 180px;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 36px;
+    margin-left: -20px;
+}
+.button{
+    background: white;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: unset;
+    margin-left: -20px;
+}
+.bt2{
+    background: white;
+    padding: 8px 30px;
+    font-size: 20px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: unset;
+    margin-top: 20px;
+}
+.ml15{
+    margin-left: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.icon:hover{
+    transform: scale(1.1);
+}
+
+.active{
+    color: #c39114;
+    border: 1px solid #c39114;
+}
+
+.auto{
+    height: 500px;
+    max-height: 500px;
+    overflow: auto;
+}
+
+table tr th{
+    background-color: rgb(184, 188, 192);
+    position: sticky;
+    top: 0;
+}
+
+.icon{
+    border: unset;
+    background: unset;
+}
+.icon img{
+    filter: brightness(1) invert(1);
+}
